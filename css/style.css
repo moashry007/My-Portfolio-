@@ -413,7 +413,7 @@ li > a:only-child:after { content: ''; }
     padding: 0 0.1rem;
 }
 .social ul li:hover{
-        transform: scale(1.2);
+        transform: scale(1.5);
 }
 .social ul li:hover a{
 color: #EF8354;
