@@ -559,7 +559,11 @@ h2.heading span,h3.heading span {
     border: none;
     transition: none;
     background: #fff;
-	box-shadow: 5px 5px 10px 0 rgba(76, 110, 245, .1);
+box-shadow: 5px 5px 10px 0 rgba(76, 110, 245, .1);
+transition: all 1s linear;
+}
+.service-in .card:hover {
+	transform: scale(1.1);
 }
 .service-in .card h5.card-title {
     font-size: 20px;
