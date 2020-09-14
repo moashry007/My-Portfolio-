@@ -560,7 +560,7 @@ h2.heading span,h3.heading span {
     transition: none;
     background: #fff;
 box-shadow: 5px 5px 10px 0 rgba(76, 110, 245, .1);
-transition: all .3s ease-in;
+transition: all .3s cubic-bezier(0.04, 0.58, 0.58, 1);
 }
 .service-in .card:hover {
 	transform: scale(1.1);
